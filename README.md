@@ -18,3 +18,8 @@ Breakpoints
 - Understand the concept of breakpoints in responsive CSS to create style rules that apply to different screen sizes;
 - Use media queries to define specific conditions under which CSS style rules will be applied;
 - Create responsive layouts using breakpoints and media queries.
+
+Use of Images
+
+- Understand the concept of responsive images and why they are important for creating a consistent user experience across different devices and screen sizes;
+- Explore image optimization techniques to ensure images load efficiently, minimizing bandwidth usage and improving website performance.

@@ -12,3 +12,9 @@ Work with flexible units of measurement
 
 - Understand the different categories of measurement units;
 - Apply percentages in CSS.
+
+Breakpoints
+
+- Understand the concept of breakpoints in responsive CSS to create style rules that apply to different screen sizes;
+- Use media queries to define specific conditions under which CSS style rules will be applied;
+- Create responsive layouts using breakpoints and media queries.

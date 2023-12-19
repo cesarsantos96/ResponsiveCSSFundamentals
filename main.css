@@ -1,7 +1,9 @@
-h1, p{
-    font-size: 1em;
+li{
+    list-style-type: none;
+    max-width: 33%;
+    float: left;
 }
 
-section{
-    font-size: 32px;
+li img {
+    width: 100%;
 }

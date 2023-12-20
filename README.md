@@ -23,3 +23,9 @@ Use of Images
 
 - Understand the concept of responsive images and why they are important for creating a consistent user experience across different devices and screen sizes;
 - Explore image optimization techniques to ensure images load efficiently, minimizing bandwidth usage and improving website performance.
+
+Dropdown menu
+
+- Create a dropdown menu that works responsively on different screen sizes and devices;
+- Use CSS positioning techniques to control the layout and appearance of the dropdown menu;
+- Create hover and click interactions for the dropdown menu.

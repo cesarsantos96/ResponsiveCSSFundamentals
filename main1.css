@@ -23,26 +23,41 @@ header {
     }
 
     .submenu{
-        display: block;
+        display: none;
+        background-color: transparent;
+        position: absolute;
+        left: 0;
+        width: 300px;
+        top: 100%; 
     }
-
+    a {
+        text-decoration: none;
+      }
+      
     .menu > li{
         float: left;
         list-style: none;
         padding: 16px;
         border-top: 4px solid transparent;
+        position: relative;
     }
 
     .menu li:hover .submenu{
         display: block;
     }
-
-    .submenu li{
-        display: block;
-        padding: 2px;
+    .menu li:hover {
+        border-color: blue;
     }
-
 
     .clear{
         clear: both;
     }
+
+    .submenu li{
+        display: block;
+        padding: 8px;
+        
+    }
+
+
+    

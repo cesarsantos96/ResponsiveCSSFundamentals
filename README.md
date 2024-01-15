@@ -29,3 +29,9 @@ Dropdown menu
 - Create a dropdown menu that works responsively on different screen sizes and devices;
 - Use CSS positioning techniques to control the layout and appearance of the dropdown menu;
 - Create hover and click interactions for the dropdown menu.
+
+Building a layout with grid css
+
+- Understand the fundamental principles of CSS Grid, including how to create a layout grid, define rows and columns, and how items are positioned within that grid;
+- Apply CSS Grid concepts to create a real page layout. This includes creating a grid structure for the website's main session, as well as placing elements such as images and text within that grid;
+- Create a layout with CSS Grid and make it responsive, so it works well on different screen sizes and devices.

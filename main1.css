@@ -1,101 +1,52 @@
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
-    .container{
-        max-width: 1024px;
-        width: 100%;
-        margin: 0 auto;
-    }
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
 
-    header .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
 
-    header {
-        padding: 16px 0 0 ;
-        border-bottom: 1px solid #ccc;
-        margin-bottom: 56px;
-    }
+}
 
-    .submenu{
-        display: none;
-        background-color: #fff;
-        position: absolute;
-        left: 0;
-        width: 300px;
-        top: 100%; 
-    }
-    a    {
-        text-decoration: none;
-     }
-      
-    .menu > li{
-        float: left;
-        list-style: none;
-        padding: 16px;
-        border-top: 4px solid transparent;
-        position: relative;
-    }
+header {
+    padding: 16px 0;
+    background-color: #3868d6;
+    color: #fff;
+    font-style: italic;
+}
 
-    .menu li:hover .submenu{
-        display: block;
-    }
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-style: normal;
+}
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-    .menu li:hover {
-        border-color: blue;
-    }
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
 
-    .clear{
-        clear: both;
-    }
-
-    .submenu li{
-        display: block;
-        padding: 8px;    
-    }
-
-    .conteudo{
-        display: grid;
-        grid-template-columns: 70% 30%;
-    }
-
-
-    .news img{
-        max-width: 100%;
-    }
-
-    .destaque .noticia a {
-        display: flex;
-        font-size: 2em;
-    }
-
-    .destaque .noticia img{
-        margin-right: 8px;
-    }
-
-    section h2{
-        margin-bottom: 32px;
-    }
-
-    aside{
-        padding-left: 40px;
-    }
-
-    aside .noticia{
-        margin-bottom: 24px;
-    }
-
-    .noticias{
-        display: grid;
-        grid-template-columns: repeat(3, 32.6%);
-        column-gap: 1%;
-        row-gap: 5%;
-    }
-
-    
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

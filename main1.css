@@ -5,10 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header,
-section h2,
-section h3,
-form button {
+header{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
@@ -49,4 +46,12 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.about-store {
+   display: grid;
+}
+
+section p {
+    margin-bottom: 8px;
 }

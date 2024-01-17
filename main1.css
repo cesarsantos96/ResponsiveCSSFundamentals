@@ -1,42 +1,24 @@
-* {
+*{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-header{
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-}
-
-body,
-input,
-textarea {
-    font-family: 'Roboto', sans-serif;
-
 }
 
 header {
     padding: 16px 0;
     background-color: #3868d6;
-    color: #fff;
-    font-style: italic;
+    color: #e6e9f7;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
-    font-style: normal;
-}
-header nav li a {
-    color: #fff;
-    text-decoration: none;
 }
 
-.container {
-    max-width: 1280px;
+container {
+    max-width: 1024px;
     width: 100%;
     margin: 0 auto;
 }
@@ -48,10 +30,14 @@ section .container {
     justify-content: space-between;
 }
 
-.about-store {
-   display: grid;
+store-front {
+    margin-right: 32px;
 }
 
 section p {
     margin-bottom: 8px;
+}
+
+.line{
+    
 }

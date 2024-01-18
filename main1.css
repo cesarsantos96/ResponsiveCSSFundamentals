@@ -10,6 +10,23 @@
         width: 100%;
         margin: 0 auto;
     }
+    header nav ul.menu {
+        display: flex;
+        margin-left: auto; /* This will push the menu to the right */
+    }
+    
+    header {
+        padding: 16px 0;
+        background-color: #3868d6;
+        color: #ecf0f1;
+    }
+
+    header .container,
+    section .container  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     header .container{
         display: flex;
@@ -17,47 +34,15 @@
         align-items: center;
     }
 
-    header {
-        padding: 16px 0 0 ;
-        border-bottom: 1px solid #ccc;
-        margin-bottom: 56px;
+    header nav li {
+        display: inline;
+        margin-left: 16px;
+        font-size: 18px;
     }
-
-    .submenu{
-        display: none;
-        background-color: #fff;
-        position: absolute;
-        left: 0;
-        width: 300px;
-        top: 100%; 
-    }
-    a    {
+    
+    header nav li a {
+        color: #ecf0f1;
         text-decoration: none;
-     }
-      
-    .menu > li{
-        float: left;
-        list-style: none;
-        padding: 16px;
-        border-top: 4px solid transparent;
-        position: relative;
-    }
-
-    .menu li:hover .submenu{
-        display: block;
-    }
-
-    .menu li:hover {
-        border-color: blue;
-    }
-
-    .clear{
-        clear: both;
-    }
-
-    .submenu li{
-        display: block;
-        padding: 8px;    
     }
 
     .conteudo{
@@ -67,15 +52,15 @@
     .news img{
         max-width: 100%;
     }
-    .noticia img{
+    .produto img{
         max-width: 100%;
     }
-    .destaque .noticia a {
+    .destaque .produto a {
         display: flex;
         font-size: 2em;
     }
 
-    .destaque .noticia img{
+    .destaque .produto img{
         margin-right: 8px;
     }
 
@@ -83,17 +68,10 @@
         margin-bottom: 32px;
     }
 
-    aside{
-        padding-left: 40px;
-    }
 
-    aside .noticia{
-        margin-bottom: 24px;
-    }
-
-    .noticias{
+    .produtos{
         display: grid;
-        grid-template-columns: repeat(3, 32.6%);
+        grid-template-columns: repeat(4, 32.6%);
         column-gap: 1%;
         row-gap: 5%;
     }

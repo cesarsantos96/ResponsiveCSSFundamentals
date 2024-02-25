@@ -71,11 +71,22 @@ img{
 .sobre-loja{
     display: flex;
     align-items: center;
+    
 }
 
 .sobre-loja .texto{
     margin-left: 20px;
 }
 p{
+    margin-right: 50%;
     text-align: justify;
+}
+
+hr{
+    margin-right: 50%;
+    border: 1px solid #3868D6;
+}
+
+.texto{
+    margin-bottom: 5%;
 }

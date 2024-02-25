@@ -18,7 +18,9 @@ section h2{
 body{
     background-color: #fff;
 }
-
+h3{
+    align-text:center ;
+}
 body,
 input,
 textarea{
@@ -63,7 +65,7 @@ section .container{
     max-width: 100%;
    }
 
-img{
+.sobre-loja img{
     margin-left: 25%;
     margin-top: 2%; 
 }
@@ -89,4 +91,63 @@ hr{
 
 .texto{
     margin-bottom: 5%;
+}
+
+.produtos{
+    margin-left: 25%;
+    margin-top: 2%; 
+}
+
+.hr-produtos{
+    
+    margin-right: 22.5%;
+        margin-left: 18%;
+        border: 1px solid #3868D6;
+    }
+
+.produtos{
+        margin: 20px auto;
+        width: 80%;
+    }
+
+.produtos h2{
+    margin-left: 18%;
+    margin-top: 2%; 
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: repeat(4,17%);
+    grid-gap: 5px;
+    margin-left: 17.5%;
+}
+
+
+.product{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.product h3{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product p{
+    font-size: 10px;
+    text-align: justify;
+    
+}
+
+.product button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3868D6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }

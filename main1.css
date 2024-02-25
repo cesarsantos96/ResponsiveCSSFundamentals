@@ -112,9 +112,12 @@ hr{
 
 .produtos h2{
     margin-left: 18%;
-    margin-top: 2%; 
+    margin-top: 1%;
+     
 }
-
+h2{
+    margin-top: 5%;
+}
 .containers{
     display: grid;
     grid-template-columns: repeat(4,17%);

@@ -151,3 +151,73 @@ hr{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        margin-left: 10%; 
+        margin-right: 10%; 
+    }
+
+    .sobre-loja img {
+        margin-left: 10%; 
+    }
+
+    .sobre-loja .texto {
+        margin-left: 10%; 
+    }
+
+    p, hr {
+        margin-right: 20%; 
+    }
+
+    .produtos {
+        margin-left: 10%; 
+    }
+
+    .produtos h2 {
+        margin-left: 10%; 
+    }
+
+    .containers {
+        margin-left: 10%; 
+        grid-template-columns: repeat(2, 45%); 
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        margin-left: 5%; 
+        margin-right: 5%; 
+    }
+
+    .sobre-loja img {
+        margin-left: 5%; 
+    }
+
+    .sobre-loja .texto {
+        margin-left: 5%; 
+    }
+
+    p, hr {
+        margin-right: 10%; 
+    }
+
+    .produtos {
+        margin-left: 5%; 
+    }
+
+    .produtos h2 {
+        margin-left: 5%; 
+    }
+
+    .containers {
+        margin-left: 5%; 
+        grid-template-columns: repeat(2, 45%); 
+    }
+
+    .product img {
+        width: 100%; 
+    }
+}
